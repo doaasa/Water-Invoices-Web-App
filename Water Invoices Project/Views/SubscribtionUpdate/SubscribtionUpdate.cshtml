@@ -1,0 +1,217 @@
+﻿@model Water_Invoices_Project.Models.NwcSubscriptionFile
+@using (Html.BeginForm("SaveData", "SubscribtionUpdate", FormMethod.Post, new { @class = "form-horizontal", @dir = "rtl" }))
+{
+    <table class="table">
+        <tr>
+            <td>
+                <label class="control-label text-right">رقم الاشتراك</label>
+            </td>
+            <td>
+                <input type="text" name="SubCode" id="SubCode" class="form-control" value="@Model.NwcSubscriptionFileNo" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="control-label text-right">رقم الهوية</label>
+            </td>
+            <td>
+                <input type="text" name="Code" id="Code" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="control-label text-right">الاسم</label>
+            </td>
+            <td>
+                <input type="text" name="Name" id="Name" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="control-label text-right">المدينة</label>
+            </td>
+            <td>
+                <input type="text" name="City" id="City" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="control-label text-right">الحي</label>
+            </td>
+            <td>
+                <input type="text" name="Area" id="Area" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="control-label text-right">رقم الجوال</label>
+            </td>
+            <td>
+                <input type="text" name="Phone" id="Phone" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="control-label text-right">عدد الوحدات</label>
+            </td>
+            <td>
+                <input type="text" name="Unit" id="Unit" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="control-label text-right">نوع العقار</label>
+            </td>
+            <td>
+                <select name="TypeName" id="TypeName" class="form-control">
+                    <option value="1">منزل</option>
+                    <option value="2">فيلا</option>
+                    <option value="3">قصر</option>
+                    <option value="4">عمارة</option>
+                    <option value="5">مزرعة</option>
+                    <option value="6">مستودع</option>
+                    <option value="7">شاليه</option>
+                    <option value="8">استراحة</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="control-label text-right">هل يوجد صرف صحي</label>
+            </td>
+            <td>
+                <label class="control-label text-right">نعم</label>
+                <input type="checkbox" id="yes" name="yes" value="true">
+                <label class="control-label text-right">لا</label>
+                <input type="checkbox" id="no" name="no" value="false">
+
+            </td>
+
+
+        </tr>
+    </table>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+    @if (TempData["Failed Message"] != null)
+    {
+        <div class="alert alert-success" style="background-color:red; color:white;">@TempData["Failed Message"]</div>
+    }
+    <div class="form-group rtl" style="text-align: right; margin-right: 50px;">
+        <div style="display: inline-block;">
+            <input type="submit" value="حفظ" class="btn btn-primary"
+                   style="background-color: blue; font-size: 28px;">
+        </div>
+        <div style="display: inline-block;">
+            <input type="button" onclick="clearTextboxes()" value="انهاء" class="btn btn-primary"
+                   style="background-color: darkred; font-size: 28px;">
+        </div>
+    </div>
+
+}
+
+
+
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px;
+        white-space: nowrap;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 13px;
+    }
+
+
+    th {
+        background-color: blue;
+        color: white;
+    }
+
+    .rtl {
+        direction: rtl;
+        font-family: 'Arabic Typesetting';
+    }
+
+    .table-container {
+        max-height: 100%;
+        overflow-y: auto;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+
+
+    function clearTextboxes() {
+        $('SubCode').val("");
+        $('#Code').val("");
+        $('#Name').val("");
+        $('#City').val("");
+        $('#Area').val("");
+        $('#Phone').val("");
+        $('#Unit').val("");
+        $('TypeName').val("");
+    }
+
+
+    $(function () {
+        // Get references to the yes and no checkboxes
+        var $yesCheckbox = $('#yes');
+        var $noCheckbox = $('#no');
+
+        // Attach a change event handler to the yes checkbox
+        $yesCheckbox.change(function () {
+            if ($(this).is(':checked')) {
+                // If the yes checkbox is checked, disable the no checkbox and uncheck it
+                $noCheckbox.prop('disabled', true).prop('checked', false);
+            } else {
+                // If the yes checkbox is unchecked, enable the no checkbox
+                $noCheckbox.prop('disabled', false);
+            }
+        });
+
+        // Attach a change event handler to the no checkbox
+        $noCheckbox.change(function () {
+            if ($(this).is(':checked')) {
+                // If the no checkbox is checked, disable the yes checkbox and uncheck it
+                $yesCheckbox.prop('disabled', true).prop('checked', false);
+            } else {
+                // If the no checkbox is unchecked, enable the yes checkbox
+                $yesCheckbox.prop('disabled', false);
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $("#Code").change(function () {
+            var newValue = $(this).val();
+            myFunction(newValue);
+        });
+    });
+    function myFunction(newValue) {
+        $.post("/SubscribtionUpdate/UpdateRecordSubribition",
+            { Code: newValue })
+            .done(function (response) {
+                $('#Name').val(response.data1);
+                $('#City').val(response.data2);
+                $('#Area').val(response.data3);
+                $('#Phone').val(response.data4);
+
+            })
+            .fail(function (xhr, status, error) {
+                console.error(xhr.responseText);
+                console.error(xhr.status);
+
+            });
+    }
+</script>
+

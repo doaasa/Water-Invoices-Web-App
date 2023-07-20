@@ -1,0 +1,82 @@
+﻿@model List<Water_Invoices_Project.Models.NwcSubscriptionFile>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 19px;
+    }
+
+    th {
+        background-color: blue;
+        color: white;
+    }
+
+    .rtl {
+        direction: rtl;
+        font-family: 'Arabic Typesetting';
+    }
+
+    .table-container {
+        max-height: 100%;
+        overflow-y: auto;
+    }
+</style>
+
+<div class="table-container">
+    <table>
+        <thead>
+            <tr class="rtl">
+                <th>م</th>
+                <th>رقم الاشتراك</th>
+                <th>رقم المشترك</th>
+                <th>الأسم</th>
+                <th>رقم الجوال</th>
+                <th>نوع العقار</th>
+                <th>عدد الوحدات</th>
+                <th>هل يوجد صرف صحي</th>
+                <th>اخر قراءة للعداد</th>
+                <th>ملاحظات</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var subscriber in Model)
+            {
+            <tr class="rtl">
+                <td>@subscriber.M</td>
+                <td>@subscriber.NwcSubscriptionFileNo</td>
+                <td>@subscriber.NwcSubscriptionFileSubscriberCode</td>
+                <td>@subscriber.SubscriberName</td>
+                <td>@subscriber.Phone</td>
+                <td>@subscriber.Type</td>
+                <td>@subscriber.NwcSubscriptionFileUnitNo</td>
+                <td>@subscriber.YesorNo</td>
+                <td>@subscriber.NwcSubscriptionFileLastReadingMeter</td>
+                <td>@subscriber.NwcSubscriptionFileReasons</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<script>
+    function scrollToBottom() {
+        var table = document.querySelector('table');
+        table.scrollTop = table.scrollHeight;
+    }
+
+    window.onload = function () {
+        scrollToBottom();
+    };
+</script>

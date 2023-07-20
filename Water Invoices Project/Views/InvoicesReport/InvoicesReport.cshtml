@@ -1,0 +1,85 @@
+﻿@model List<Water_Invoices_Project.Models.NwcInvoice>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 16.3px;
+    }
+
+
+    th {
+        background-color: blue;
+        color: white;
+    }
+
+    .rtl {
+        direction: rtl;
+        font-family: 'Arabic Typesetting';
+    }
+
+    .table-container {
+        max-height: 100%;
+        overflow-y: auto;
+    }
+</style>
+
+<div class="table-container">
+    <table>
+        <thead>
+            <tr class="rtl">
+                <th>م</th>
+                <th>رقم الفاتورة</th>
+                <th>رقم الاشتراك</th>
+                <th>رقم المشترك</th>
+                <th>الأسم</th>
+                <th>تاريخ الفاتورة</th>
+                <th>الأستهلاك السابق</th>
+                <th>الأستهلاك الحالي</th>
+                <th>كمية الأستهلاك</th>
+                <th>مجموع الفاتورة</th>
+                <th>اجمالي الفاتورة</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var subscriber in Model)
+            {
+            <tr class="rtl">
+                <td>@subscriber.M</td>
+                <td>@subscriber.NwcInvoicesNo</td>
+                <td>@subscriber.NwcInvoicesSubscriptionNo</td>
+                <td>@subscriber.NwcInvoicesSubscriberNo</td>
+                <td>@subscriber.SubscriberName</td>
+                <td>@subscriber.Date</td>
+                <td>@subscriber.NwcInvoicesPreviousConsumptionAmount</td>
+                <td>@subscriber.NwcInvoicesCurrentConsumptionAmount</td>
+                <td>@subscriber.NwcInvoicesAmountConsumption</td>
+                <td>@subscriber.NwcInvoicesTotalInvoice</td>
+                <td>@subscriber.NwcInvoicesTotalBill</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<script>
+    function scrollToBottom() {
+        var table = document.querySelector('table');
+        table.scrollTop = table.scrollHeight;
+    }
+
+    window.onload = function () {
+        scrollToBottom();
+    };
+</script>

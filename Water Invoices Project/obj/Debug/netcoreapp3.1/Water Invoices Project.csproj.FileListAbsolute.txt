@@ -1,0 +1,99 @@
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Water Invoices Project.exe
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Water Invoices Project.deps.json
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Water Invoices Project.runtimeconfig.json
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Water Invoices Project.runtimeconfig.dev.json
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Water Invoices Project.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Water Invoices Project.pdb
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Water Invoices Project.Views.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Water Invoices Project.Views.pdb
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.csproj.AssemblyReference.cache
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.AssemblyInfoInputs.cache
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.AssemblyInfo.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.csproj.CoreCompileInputs.cache
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.RazorAssemblyInfo.cache
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.RazorAssemblyInfo.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\staticwebassets\Water Invoices Project.StaticWebAssets.Manifest.cache
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\staticwebassets\Water Invoices Project.StaticWebAssets.xml
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\scopedcss\bundle\Water Invoices Project.styles.css
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.TagHelpers.input.cache
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.TagHelpers.output.cache
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.RazorCoreGenerate.cache
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.RazorTargetAssemblyInfo.cache
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.RazorTargetAssemblyInfo.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.Views.pdb
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.pdb
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.genruntimeconfig.cache
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Water Invoices Project.csproj.CopyComplete
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\SubscriberReport\Index.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\SubscriberReport\SubscriberReport.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\SubscribtionReport\SubscribtionReport.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\SubscribtionReport\Index.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\InvoiceRegisteration\Index.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\InvoiceRegisteration\InvoiceRegisteration.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\InvoicesReport\InvoicesReport.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\InvoicesReport\Index.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Index.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\RealEstate\Index.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\RealEstate\RealEstate.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\InvoiceSearch\Index.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\InvoiceSearch\InvoiceSearch.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\SubscriberUpdate\Index.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\SubscriberUpdate\SubscriberUpdate.cshtml.g.cs
+C:\Users\Electronica Care\Desktop\Project Task\Water Invoices Project\Water Invoices Project\obj\Debug\netcoreapp3.1\Razor\Views\SubscribtionUpdate\SubscribtionUpdate.cshtml.g.cs

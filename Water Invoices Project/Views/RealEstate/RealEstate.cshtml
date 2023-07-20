@@ -1,0 +1,96 @@
+﻿@model Water_Invoices_Project.Models.NwcRrealEstateType
+@using (Html.BeginForm("UpdateRecord", "RealEstate", FormMethod.Post, new { @class = "form-horizontal", @dir = "rtl" }))
+{
+    <table class="table">
+        <tr>
+            <td>
+                <label class="control-label text-right">رمز العقار</label>
+            </td>
+            <td>
+                <input type="text" name="Code" id="Code" class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="control-label text-right">وصف العقار</label>
+            </td>
+            <td>
+                <input type="text" name="Name"  id="Name"  class="form-control" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label class="control-label text-right">ملاحظات</label>
+            </td>
+            <td>
+                <input type="text" name="Reasons" id="Reasons" class="form-control" />
+            </td>
+        </tr>
+    </table>
+
+    <div class="form-group rtl" style="text-align: right; margin-right: 50px;">
+        <div style="display: inline-block;">
+            <input type="submit" value="حفظ" class="btn btn-primary"
+                   style="background-color: blue; font-size: 28px;">
+        </div>
+        <div style="display: inline-block;">
+            <input type="button" onclick="clearTextboxes()" value="انهاء" class="btn btn-primary"
+                   style="background-color: darkred; font-size: 28px;">
+        </div>
+    </div>
+
+}
+
+
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["Failed Message"] != null)
+{
+    <div class="alert alert-success" style="background-color:red; color:white;">@TempData["Failed Message"]</div>
+}
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px;
+        white-space: nowrap;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 13px;
+    }
+
+
+    th {
+        background-color: blue;
+        color: white;
+    }
+
+    .rtl {
+        direction: rtl;
+        font-family: 'Arabic Typesetting';
+    }
+
+    .table-container {
+        max-height: 100%;
+        overflow-y: auto;
+    }
+</style>
+
+<script>
+
+    function clearTextboxes() {
+        $('#Code').val("");
+        $('#Name').val("");
+        $('#Reasons').val("");
+   
+
+    }
+</script>

@@ -1,0 +1,256 @@
+﻿@model Water_Invoices_Project.Models.NwcInvoice
+
+<table class="table">
+    <tr>
+        <td>
+            <label class="control-label text-right">رقم الفاتورة</label>
+        </td>
+        <td>
+            <input type="text" id="NwcInvoicesNo" name="NwcInvoicesNo" class="form-control" placeholder="ادخل رقم الفاتورة" />
+        </td>
+        <td>
+            <label class="control-label text-right">تاريخ الفاتورة</label>
+        </td>
+        <td>
+            <input type="text" id="NwcInvoicesDate" name="NwcInvoicesDate" class="form-control" />
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="control-label text-right">من تاريخ</label>
+        </td>
+        <td>
+            <input type="text" id="NwcInvoicesFrom" name="NwcInvoicesFrom" class="form-control" />
+        </td>
+        <td>
+            <label class="control-label text-right">إلى تاريخ</label>
+        </td>
+        <td>
+            <input type="text" name="NwcInvoicesTo" id="NwcInvoicesTo" class="form-control" />
+        </td>
+
+    </tr>
+    <tr>
+        <td>
+            <label class="control-label text-right">رقم الأشتراك</label>
+        </td>
+        <td>
+            <input type="text" name="NwcInvoicesSubscriptionNo" id="NwcInvoicesSubscriptionNo" class="form-control" />
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="control-label text-right">هوية المشترك</label>
+        </td>
+        <td>
+            <input type="text" name="NwcInvoicesSubscriberNo" id="NwcInvoicesSubscriberNo" class="form-control" />
+        </td>
+        <td>
+            <label class="control-label text-right">الأسم</label>
+        </td>
+        <td>
+            <input type="text" name="SubscriberName" id="SubscriberName" class="form-control" />
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>
+            <label class="control-label text-right">القراءة السابقة</label>
+        </td>
+        <td>
+            <input type="text" name="NwcInvoicesPreviousConsumptionAmount" id="NwcInvoicesPreviousConsumptionAmount" class="form-control" />
+        </td>
+        <td>
+            <label class="control-label text-right">القراءة الحالية</label>
+        </td>
+        <td>
+            <input type="text" name="NwcInvoicesCurrentConsumptionAmount" id="NwcInvoicesCurrentConsumptionAmount" class="form-control" />
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>
+            <label class="control-label text-right">كمية الأستهلاك</label>
+        </td>
+        <td>
+            <input type="text" name="NwcInvoicesAmountConsumption" id="NwcInvoicesAmountConsumption" class="form-control" />
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+    </tr>
+    <tr>
+
+    <tr>
+        <td>
+            <label class="control-label text-right">هل يوجد صرف صحي</label>
+        </td>
+        <td>
+            <input type="text" name="NwcInvoicesIsThereSanitation" id="NwcInvoicesIsThereSanitation" class="form-control" />
+        </td>
+        <td>
+            <label class="control-label text-right">عدد الوحدات</label>
+        </td>
+        <td>
+            <input type="text" name="Unit" id="Unit" class="form-control" />
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>
+            <label class="control-label text-right">قيمة رسوم الخدمة</label>
+        </td>
+        <td>
+            <input type="text" name="NwcInvoicesServiceFee" id="NwcInvoicesServiceFee" class="form-control" />
+        </td>
+        <td>
+            <label class="control-label text-right">نسبة الضريبة</label>
+        </td>
+        <td>
+            <input type="text" name="TaxRate" id="TaxRate" class="form-control" />
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>
+            <label class="control-label text-right">قيمة استهلاك المياه</label>
+        </td>
+        <td>
+            <input type="text" name="NwcInvoicesConsumptionValue" id="NwcInvoicesConsumptionValue" class="form-control" />
+        </td>
+        <td>
+            <label class="control-label text-right">قيمة استهلاك الصرف الصحي</label>
+        </td>
+        <td>
+            <input type="text" name="NwcInvoicesWastewaterConsumptionValue" id="NwcInvoicesWastewaterConsumptionValue" class="form-control" />
+        </td>
+
+    </tr>
+
+    <tr>
+        <td>
+            <label class="control-label text-right">قيمة الفاتورة</label>
+        </td>
+        <td>
+            <input type="text" name="NwcInvoicesTotalInvoice" id="NwcInvoicesTotalInvoice" class="form-control" />
+        </td>
+        <td>
+            <label class="control-label text-right">اجمالي الفاتورة</label>
+        </td>
+        <td>
+            <input type="text" name="NwcInvoicesTotalBill" id="NwcInvoicesTotalBill" class="form-control" />
+        </td>
+
+    </tr>
+
+</table>
+<div class="form-group rtl" style="text-align: right; margin-right: 50px;">
+    <div style="display: inline-block; margin-left: 10px; margin-right: 20px;">
+        <button type="submit" onclick="clearTextboxes()" class="btn btn-primary" style="background-color: darkred; font-size: 28px;">انهاء</button>
+    </div>
+</div>
+
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px;
+        white-space: nowrap;
+        text-align: center;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 13px;
+    }
+
+
+    th {
+        background-color: blue;
+        color: white;
+    }
+
+    .rtl {
+        direction: rtl;
+        font-family: 'Arabic Typesetting';
+    }
+
+    .table-container {
+        max-height: 100%;
+        overflow-y: auto;
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("#NwcInvoicesNo").change(function () {
+            var newValue = $(this).val();
+            myFunction(newValue);
+        });
+    });
+
+    function myFunction(newValue) {
+        $.post("/InvoiceSearch/GetData",
+            { invoice: newValue })
+            .done(function (response) {
+                $('#NwcInvoicesDate').val(response.data1);
+                $('#NwcInvoicesFrom').val(response.data2);
+                $('#NwcInvoicesTo').val(response.data3);
+                $('#Unit').val(response.data4);
+                $('#NwcInvoicesSubscriptionNo').val(response.data5);
+                $('#NwcInvoicesSubscriberNo').val(response.data6);
+                $('#SubscriberName').val(response.data7);
+                $('#NwcInvoicesPreviousConsumptionAmount').val(response.data8);
+                $('#NwcInvoicesCurrentConsumptionAmount').val(response.data9);
+                $('#NwcInvoicesAmountConsumption').val(response.data10);
+                $('#NwcInvoicesServiceFee').val(response.data11);
+                $('#TaxRate').val(response.data12);
+                $('#NwcInvoicesIsThereSanitation').val(response.data13);
+                $('#NwcInvoicesConsumptionValue').val(response.data14);
+                $('#NwcInvoicesWastewaterConsumptionValue').val(response.data15);
+                $('#NwcInvoicesTotalInvoice').val(response.data16);
+                $('#NwcInvoicesTaxValue').val(response.data17);
+                $('#NwcInvoicesTotalBill').val(response.data18);
+            })
+            .fail(function (xhr, status, error) {
+                console.error(xhr.responseText);
+                console.error(xhr.status);
+            });
+    }
+    function clearTextboxes() {
+        $('#NwcInvoicesNo').val("");
+        $('#NwcInvoicesDate').val("");
+        $('#NwcInvoicesFrom').val("");
+        $('#NwcInvoicesTo').val("");
+        $('#Unit').val("");
+        $('#NwcInvoicesSubscriptionNo').val("");
+        $('#NwcInvoicesSubscriberNo').val("");
+        $('#SubscriberName').val("");
+        $('#NwcInvoicesPreviousConsumptionAmount').val("");
+        $('#NwcInvoicesCurrentConsumptionAmount').val("");
+        $('#NwcInvoicesAmountConsumption').val("");
+        $('#NwcInvoicesServiceFee').val("");
+        $('#NwcInvoicesTaxRate').val("");
+        $('#NwcInvoicesIsThereSanitation').val("");
+        $('#NwcInvoicesConsumptionValue').val("");
+        $('#NwcInvoicesWastewaterConsumptionValue').val("");
+        $('#NwcInvoicesTotalInvoice').val("");
+        $('#NwcInvoicesTaxValue').val("");
+        $('#NwcInvoicesTotalBill').val("");
+    }
+
+</script>

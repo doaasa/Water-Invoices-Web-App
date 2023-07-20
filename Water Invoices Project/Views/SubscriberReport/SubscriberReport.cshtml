@@ -1,0 +1,75 @@
+﻿@model List<Water_Invoices_Project.Models.NwcSubscriberFile>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size:19px;
+    }
+
+    th {
+        background-color: blue;
+        color: white;
+    }
+
+    .rtl {
+        direction: rtl;
+        font-family: 'Arabic Typesetting';
+    }
+
+    .table-container {
+        max-height: 100%;
+        overflow-y: auto;
+    }
+</style>
+
+<div class="table-container">
+    <table>
+        <thead>
+            <tr class="rtl">
+                <th>م</th>
+                <th>رقم الهوية</th>
+                <th>الأسم</th>
+                <th>المدينة</th>
+                <th>الحي</th>
+                <th>رقم الجوال</th>
+                <th>عدد الأشتراكات</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var subscriber in Model)
+            {
+                <tr class="rtl">
+                    <td>@subscriber.M</td>
+                    <td>@subscriber.NwcSubscriberFileId</td>
+                    <td>@subscriber.NwcSubscriberFileName</td>
+                    <td>@subscriber.NwcSubscriberFileCity</td>
+                    <td>@subscriber.NwcSubscriberFileArea</td>
+                    <td>@subscriber.NwcSubscriberFileMobile</td>
+                    <td>@subscriber.Counter</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<script>
+    function scrollToBottom() {
+        var table = document.querySelector('table');
+        table.scrollTop = table.scrollHeight;
+    }
+
+    window.onload = function () {
+        scrollToBottom();
+    };
+</script>

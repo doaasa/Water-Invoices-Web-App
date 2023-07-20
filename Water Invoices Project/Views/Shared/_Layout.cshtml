@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-lightblue border rounded">
+        <h1 class="navbar-brand mx-auto font-arabic">برنامج تسجيل فواتير المياه</h1>
+    </nav>
+    <div class="container-fluid" style="height: 100vh;">
+        <div class="row" style="direction: rtl; height: 100%;">
+            <nav class="col-sm-3 col-lg-3 d-none d-sm-block bg-lightblue  sidebar border rounded" style="height: 100%;">
+                <ul class="nav nav-pills flex-column  " style="text-align: right; margin-right: -50px; ">
+                    <li class="nav-item nav-pills flex-column text-white">
+                        <a class="nav-link" href="@Url.Action("CreateView","InvoiceRegisteration")">
+                            <span class="icon-container">
+                                <img src="~/Images/reg.png">
+                            </span>
+                            تسجيل الفاتورة
+                        </a>
+                    </li>
+                    <li class="nav-item" style=" margin-bottom: 5px; ">
+                        <a class="nav-link" href="@Url.Action("CreateView","SubscriberUpdate")">
+                            <span class="icon-container">
+                                <img src="~/Images/updsubr.png">
+                            </span>
+                            تحديث بيانات مشترك
+                        </a>
+                    </li>
+                    <li class="nav-item" style=" margin-bottom: 5px;">
+                        <a class="nav-link" href="@Url.Action("CreateView","SubscribtionUpdate")">
+                            <span class="icon-container">
+                                <img src="~/Images/updsu.png">
+                            </span>
+                            تحديث بيانات اشتراك
+                        </a>
+                    </li>
+                    <li class="nav-item" style=" margin-bottom: 5px;">
+                        <a class="nav-link" href="@Url.Action("CreateView","RealEstate")">
+                            <span class="icon-container">
+                                <img src="~/Images/updty.png">
+                            </span>
+                            تحديث بيانات نوع العقار
+                        </a>
+                    </li>
+                    <li>
+                        <hr style="border: 1px solid blue; margin-top: 7px; margin-bottom: 7px;">
+                    </li>
+
+                    <li class="nav-item " style=" margin-bottom: 5px;">
+                        <a class="nav-link" href="@Url.Action("CreateView","InvoiceSearch")">
+                            <span class="icon-container">
+                                <img src="~/Images/se.png">
+                            </span>
+                            استفسار عن فاتورة
+                        </a>
+                    </li>
+                    <li class="nav-item" style="margin-bottom: 5px;">
+                        <a class="nav-link" href="@Url.Action("GetSubscriberReport","SubscriberReport")">
+                            <span class="icon-container">
+                                <img src="~/Images/resubr.png">
+                            </span>
+                            تقرير عن المشتركين
+                        </a>
+                    </li>
+                    <li class="nav-item" style=" margin-bottom: 5px;">
+                        <a class="nav-link" href="@Url.Action("GetSubscribtionReport","SubscribtionReport")">
+                            <span class="icon-container">
+                                <img src="~/Images/resu.png">
+                            </span>
+                            تقرير عن الاشتراكات
+                        </a>
+                    </li>
+                    <li class="nav-item" style=" margin-bottom: 5px;">
+                        <a class="nav-link" href="@Url.Action("GetInvoicesReport","InvoicesReport")">
+                            <span class="icon-container">
+                                <img src="~/Images/inv.png">
+                            </span>
+                            تقرير الفواتير
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="@Url.Action("Button9","My")">
+                            <span class="icon-container">
+                                <img src="~/Images/log.png">
+                            </span>
+                            خروج
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main role="main" class="col-sm-9 ml-sm-auto col-lg-9 px-md-4" style="height: 100%;">
+                @RenderBody()
+                <button id="back-button" class="btn btn-primary">رجوع</button>
+            </main>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            $("li.nav-item").click(function () {
+                $("#back-button").css("display", "block");
+            });
+            $("#back-button").click(function () {
+                window.history.back();
+            });
+        });
+    </script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
